@@ -1,0 +1,6 @@
+﻿  main.cpp
+  JacksCarRental.cpp
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\jackscarrental\jackscarrental.cpp(214): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  Generating Code...
+  JacksCarRental.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\JacksCarRental.exe
+  JacksCarRental.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\JacksCarRental.pdb (Partial PDB)
