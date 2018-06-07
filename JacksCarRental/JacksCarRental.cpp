@@ -254,3 +254,68 @@ void JacksCarRental::PrintPolicy()
 		cout << endl;
 	}
 }
+
+void JacksCarRental::PerformValueIteration()
+{
+	bool bPolicy_stable = false;
+	int iter = 0;
+
+	do
+	{
+		// Policy Evaluation
+		cout << "Value Iteration Step: " << iter << endl;
+		bPolicy_stable = ValueIteration();
+
+		PrintPolicy();
+
+		++iter;
+
+	} while (!bPolicy_stable);
+
+	return;
+}
+
+bool JacksCarRental::ValueIteration()
+{
+	bool bPolicy_stable = false;
+	double theta = .1;
+	double diff = 0;
+
+	for (int num_loc1 = 0; num_loc1 <= max_cars; ++num_loc1)
+	{
+		for (int num_loc2 = 0; num_loc2 <= max_cars; ++num_loc2)
+		{
+			double old_value = state_values[num_loc1][num_loc2];
+			vector<double> action_values((max_to_move * 2) + 1, 0);
+
+			for (int action = -max_to_move; action <= max_to_move; ++action)
+			{
+				if ((action >= 0 && num_loc1 >= action) || (action < 0 && num_loc2 >= abs(action)))
+				{
+					action_values[action + max_to_move] = ExpectedReturn(num_loc1, num_loc2, action);
+				}
+				else
+				{
+					action_values[action + max_to_move] = -9999999999;
+				}
+			}
+
+			int best_action_num = distance(action_values.begin(), max_element(action_values.begin(), action_values.end()));
+			state_values[num_loc1][num_loc2] = action_values[best_action_num];
+
+			int best_action = best_action_num - max_to_move;
+			policy[num_loc1][num_loc2] = best_action;
+
+			diff = max(diff, abs(old_value - state_values[num_loc1][num_loc2]));
+		}
+	}
+
+	cout << "Diff: " << diff << endl;
+
+	if (diff < theta)
+	{
+		bPolicy_stable = true;
+	}
+
+	return bPolicy_stable;
+}

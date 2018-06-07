@@ -15,6 +15,7 @@ public:
 	//void SimulateDay();
 
 	void PerformPolicyIteration();
+	void PerformValueIteration();
 
 	// Getters
 
@@ -29,6 +30,8 @@ private:
 
 	void PolicyEvaluation();
 	bool PolicyImprovement();
+
+	bool ValueIteration();
 
 	double ExpectedReturn(int num_loc1, int num_loc2, double action);
 
