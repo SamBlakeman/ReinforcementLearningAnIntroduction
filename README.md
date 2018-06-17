@@ -6,4 +6,4 @@ https://www.amazon.co.uk/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0
 
 Below is a list of MDP scenarios and the solution methods that have been implemented for each one:
 
-Jacks Car Rental --> Policy Iteration
+Jacks Car Rental --> Policy Iteration, Value Iteration
