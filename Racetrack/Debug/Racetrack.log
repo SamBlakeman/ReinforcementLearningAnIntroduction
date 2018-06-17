@@ -1,0 +1,8 @@
+﻿  Racetrack.cpp
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(134): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(259): warning C4018: '<': signed/unsigned mismatch
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(287): warning C4018: '<': signed/unsigned mismatch
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(309): warning C4018: '<': signed/unsigned mismatch
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(319): warning C4018: '<': signed/unsigned mismatch
+  Racetrack.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\Racetrack.exe
+  Racetrack.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\Racetrack.pdb (Partial PDB)
