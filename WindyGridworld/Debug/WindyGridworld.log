@@ -1,0 +1,9 @@
+﻿  WindyGridworld.cpp
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\windygridworld\windygridworld.cpp(14): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\windygridworld\windygridworld.cpp(15): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\windygridworld\windygridworld.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  WindyGridworld.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\WindyGridworld.exe
+  WindyGridworld.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\WindyGridworld.pdb (Partial PDB)

@@ -22,8 +22,6 @@ public:
 
 	// Methods
 	void MonteCarloES();
-	
-
 
 	// Getters
 

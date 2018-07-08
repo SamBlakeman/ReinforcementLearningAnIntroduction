@@ -4,5 +4,8 @@ c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcemen
 c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(287): warning C4018: '<': signed/unsigned mismatch
 c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(309): warning C4018: '<': signed/unsigned mismatch
 c:\users\sam blakeman\documents\reinforcementlearninganintroduction\reinforcementlearninganintroduction\racetrack\racetrack.cpp(319): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
   Racetrack.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\Racetrack.exe
   Racetrack.vcxproj -> C:\Users\Sam Blakeman\Documents\ReinforcementLearningAnIntroduction\ReinforcementLearningAnIntroduction\Debug\Racetrack.pdb (Partial PDB)
